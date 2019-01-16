@@ -11,6 +11,15 @@ function main(){
 
   //add an item to the array
   arr.push(3);
+  arr.push(3);
+  arr.push(3);
+  arr.push(3);
+  arr.push(3);
+  arr.push(3);
+  arr.push(3);
+  arr.pop();
+  arr.pop();
+  arr.pop();
 
   console.log(arr);
 }
