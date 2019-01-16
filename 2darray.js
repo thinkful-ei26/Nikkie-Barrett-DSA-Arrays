@@ -23,10 +23,18 @@ function twoD(arr){
   for(let i=0; i < arr.length; i++){
     for(let j=0; j< arr.length; j++){
       if(arr[i][j]===0){
+        console.log('here');
+        let nestedArray =[];
+        for(let k=0; k<arr.length; k++){
+          nestedArray.push(0);
+        }
+        newArr.push(nestedArray);
         //make entire row and column 0x
       }
     }
   }
+
+  return newArr;
 }
 
 console.log(twoD([[1,0,1,1,0],
