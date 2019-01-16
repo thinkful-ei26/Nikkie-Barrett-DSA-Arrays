@@ -1,0 +1,19 @@
+So to get to the address of the nth item you simply have to 
+add n to the memory address of the start of the data. ?????
+
+What is head in memory.allocate?
+
+_resize?
+
+What is ptr doing? ptr arithmetic
+
+The push method resizes the array, then increases the length and sets
+a single memory address (both O(1) operations). So push is also O(n). 
+Why?
+ 
+
+in Retrieving values.. All this does is add an index offset, and get the value stored at a memory address.?? 
+
+in arr.insert() why memory.copy(this.ptr + index + 1, this.ptr + index, this.length - index);
+sepecifically arg 3
+
